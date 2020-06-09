@@ -13,4 +13,5 @@ extension Color {
     static let textColor = Color("Text")
     static let primaryColor = Color("Primary")
     static let backgroundColor = Color("Background")
+    static let highlightedColor = Color("Highlighted")
 }

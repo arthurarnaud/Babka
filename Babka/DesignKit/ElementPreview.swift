@@ -36,21 +36,21 @@ struct ElementPreview<Value: View>: View {
                 .environment(\.colorScheme, .dark)
                 .previewDisplayName("Dark Mode")
 
-            ForEach(localizations, id: \.identifier) { locale in
-                self.viewToPreview
-                    .previewLayout(PreviewLayout.sizeThatFits)
-                    .padding()
-                    .environment(\.locale, locale)
-                    .previewDisplayName(Locale.current.localizedString(forIdentifier: locale.identifier))
-            }
-
-            ForEach(dynamicTypeSizes, id: \.self) { sizeCategory in
-                self.viewToPreview
-                    .previewLayout(PreviewLayout.sizeThatFits)
-                    .padding()
-                    .environment(\.sizeCategory, sizeCategory)
-                    .previewDisplayName("\(sizeCategory)")
-            }
+//            ForEach(localizations, id: \.identifier) { locale in
+//                self.viewToPreview
+//                    .previewLayout(PreviewLayout.sizeThatFits)
+//                    .padding()
+//                    .environment(\.locale, locale)
+//                    .previewDisplayName(Locale.current.localizedString(forIdentifier: locale.identifier))
+//            }
+//
+//            ForEach(dynamicTypeSizes, id: \.self) { sizeCategory in
+//                self.viewToPreview
+//                    .previewLayout(PreviewLayout.sizeThatFits)
+//                    .padding()
+//                    .environment(\.sizeCategory, sizeCategory)
+//                    .previewDisplayName("\(sizeCategory)")
+//            }
 
         }
     }

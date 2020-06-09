@@ -6,6 +6,7 @@
 //  Copyright © 2020 Arthur ARNAUD. All rights reserved.
 //
 
+import ComposableArchitecture
 import UIKit
 import SwiftUI
 
@@ -20,16 +21,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
         // Create the SwiftUI view that provides the window contents.
-        let contentView = RecipeCell()
+        let contentView =     AddRecipeView(store: Store(
+            initialState: AddRecipeState(),
+            reducer: addRecipeReducer,
+            environment: AddRecipeEnvironment())
+        )
 
-        for family: String in UIFont.familyNames
-        {
-            print(family)
-            for names: String in UIFont.fontNames(forFamilyName: family)
-            {
-                print("== \(names)")
-            }
-        }
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
