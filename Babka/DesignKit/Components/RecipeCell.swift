@@ -44,21 +44,13 @@ struct RecipeCell: View {
     
     var body: some View {
         WithViewStore(self.store) { viewStore in
-            ZStack(alignment: .leading) {
-                NavigationLink(
-                    destination: EmptyView(),
-                    isActive: viewStore.binding(
-                        get: { $0.isDetailShown },
-                        send: RecipeCellAction.setNavigationActive(isActive:)
-                    )
-                ) {
-                    EmptyView()
-                }
-                .isDetailLink(true)
-                .disabled(true)
-                
-                RoundedRectangle(cornerRadius: 10, style: .continuous)
-                    .foregroundColor(viewStore.isSelected ? .highlightedColor : .backgroundColor)
+            NavigationLink(
+                destination: EmptyView(),
+                isActive: viewStore.binding(
+                    get: { $0.isDetailShown },
+                    send: RecipeCellAction.setNavigationActive(isActive:)
+                )
+            ) {
                 HStack(spacing: 24) {
                     Image("lasagna")
                         .renderingMode(.original)
@@ -91,11 +83,12 @@ struct RecipeCell: View {
                         }
                         .opacity(self.show ? 1 : 0)
                         .offset(x: self.show ? 0 : 20)
-                        .animation(Animation.easeOut.delay(0.5))
+                        .animation(Animation.easeOut.delay(0.2))
                     }
                 }
-                .padding()
             }
+            .isDetailLink(true)
+            .disabled(true)
             .onAppear {
                 self.show = true
             }
@@ -104,9 +97,7 @@ struct RecipeCell: View {
             }
             .scaleEffect(viewStore.isSelected ? 0.9 : 1)
             .animation(.easeInOut)
-            .frame(maxWidth: .infinity)
             .frame(height: 120)
-              //  .shadow(color: .highlightedColor, radius: 10, x: 0, y: 4)
             .scaleEffect(self.minY < 0 ? self.minY / 500 + 1 : 1, anchor: .bottom)
             .opacity(Double(self.minY / 200 + 1))
             .offset(y: self.minY < 0 ? -self.minY : 0)
@@ -121,13 +112,16 @@ struct InfoView: View {
     enum InfoType {
         case timer
         case serving
+        case recipeCount
         
         var iconName: String {
             switch self {
             case .timer:
                 return "timer"
-            case . serving:
+            case .serving:
                 return "serving"
+            case .recipeCount:
+                return "recipe"
             }
         }
         
@@ -135,8 +129,10 @@ struct InfoView: View {
             switch self {
             case .timer:
                 return "min"
-            case . serving:
+            case .serving:
                 return "pers"
+            case .recipeCount:
+                return "recipes"
             }
         }
     }

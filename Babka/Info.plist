@@ -4,21 +4,6 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>EBGaramond-Bold.ttf</string>
-		<string>EBGaramond-BoldItalic.ttf</string>
-		<string>EBGaramond-ExtraBold.ttf</string>
-		<string>EBGaramond-ExtraBoldItalic.ttf</string>
-		<string>EBGaramond-Italic.ttf</string>
-		<string>EBGaramond-Medium.ttf</string>
-		<string>EBGaramond-MediumItalic.ttf</string>
-		<string>EBGaramond-Regular.ttf</string>
-		<string>EBGaramond-SemiBold.ttf</string>
-		<string>EBGaramond-SemiBoldItalic.ttf</string>
-		<string>Quicksand-Bold.ttf</string>
-		<string>Quicksand-Light.ttf</string>
-		<string>Quicksand-Medium.ttf</string>
-		<string>Quicksand-Regular.ttf</string>
-		<string>Quicksand-SemiBold.ttf</string>
 		<string>Montserrat-Black.ttf</string>
 		<string>Montserrat-BlackItalic.ttf</string>
 		<string>Montserrat-Bold.ttf</string>

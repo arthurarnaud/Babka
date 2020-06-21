@@ -27,7 +27,7 @@ struct ElementPreview<Value: View>: View {
             self.viewToPreview
                 .previewLayout(PreviewLayout.sizeThatFits)
                 .padding()
-                .previewDisplayName("Default preview 1")
+                .previewDisplayName("Default preview")
 
             self.viewToPreview
                 .previewLayout(PreviewLayout.sizeThatFits)
@@ -35,23 +35,6 @@ struct ElementPreview<Value: View>: View {
                 .background(Color(.systemBackground))
                 .environment(\.colorScheme, .dark)
                 .previewDisplayName("Dark Mode")
-
-//            ForEach(localizations, id: \.identifier) { locale in
-//                self.viewToPreview
-//                    .previewLayout(PreviewLayout.sizeThatFits)
-//                    .padding()
-//                    .environment(\.locale, locale)
-//                    .previewDisplayName(Locale.current.localizedString(forIdentifier: locale.identifier))
-//            }
-//
-//            ForEach(dynamicTypeSizes, id: \.self) { sizeCategory in
-//                self.viewToPreview
-//                    .previewLayout(PreviewLayout.sizeThatFits)
-//                    .padding()
-//                    .environment(\.sizeCategory, sizeCategory)
-//                    .previewDisplayName("\(sizeCategory)")
-//            }
-
         }
     }
 }

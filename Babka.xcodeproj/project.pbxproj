@@ -39,34 +39,20 @@
 		DA077234246D6A4E00C0DA62 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA077222246D6A4D00C0DA62 /* Montserrat-ThinItalic.ttf */; };
 		DA077235246D6A4E00C0DA62 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA077223246D6A4E00C0DA62 /* Montserrat-Italic.ttf */; };
 		DA077236246D6A4E00C0DA62 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA077224246D6A4E00C0DA62 /* Montserrat-ExtraBold.ttf */; };
-		DA07723C246D6AE700C0DA62 /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA077237246D6AE700C0DA62 /* Quicksand-SemiBold.ttf */; };
-		DA07723D246D6AE700C0DA62 /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA077238246D6AE700C0DA62 /* Quicksand-Light.ttf */; };
-		DA07723E246D6AE700C0DA62 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA077239246D6AE700C0DA62 /* Quicksand-Medium.ttf */; };
-		DA07723F246D6AE700C0DA62 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA07723A246D6AE700C0DA62 /* Quicksand-Bold.ttf */; };
-		DA077240246D6AE700C0DA62 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA07723B246D6AE700C0DA62 /* Quicksand-Regular.ttf */; };
-		DA07724B246D6AFF00C0DA62 /* EBGaramond-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA077241246D6AFE00C0DA62 /* EBGaramond-BoldItalic.ttf */; };
-		DA07724C246D6AFF00C0DA62 /* EBGaramond-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA077242246D6AFF00C0DA62 /* EBGaramond-ExtraBold.ttf */; };
-		DA07724D246D6AFF00C0DA62 /* EBGaramond-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA077243246D6AFF00C0DA62 /* EBGaramond-ExtraBoldItalic.ttf */; };
-		DA07724E246D6AFF00C0DA62 /* EBGaramond-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA077244246D6AFF00C0DA62 /* EBGaramond-Regular.ttf */; };
-		DA07724F246D6AFF00C0DA62 /* EBGaramond-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA077245246D6AFF00C0DA62 /* EBGaramond-Italic.ttf */; };
-		DA077250246D6AFF00C0DA62 /* EBGaramond-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA077246246D6AFF00C0DA62 /* EBGaramond-SemiBold.ttf */; };
-		DA077251246D6AFF00C0DA62 /* EBGaramond-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA077247246D6AFF00C0DA62 /* EBGaramond-Medium.ttf */; };
-		DA077252246D6AFF00C0DA62 /* EBGaramond-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA077248246D6AFF00C0DA62 /* EBGaramond-Bold.ttf */; };
-		DA077253246D6AFF00C0DA62 /* EBGaramond-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA077249246D6AFF00C0DA62 /* EBGaramond-MediumItalic.ttf */; };
-		DA077254246D6AFF00C0DA62 /* EBGaramond-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA07724A246D6AFF00C0DA62 /* EBGaramond-SemiBoldItalic.ttf */; };
 		DA077256246D6F8A00C0DA62 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA077255246D6F8A00C0DA62 /* Fonts.swift */; };
 		DA07725B246D88FF00C0DA62 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA07725A246D88FF00C0DA62 /* Recipe.swift */; };
 		DA07725D246D890E00C0DA62 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA07725C246D890E00C0DA62 /* Ingredient.swift */; };
 		DA07725F246D8B3600C0DA62 /* RecipeStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA07725E246D8B3600C0DA62 /* RecipeStep.swift */; };
 		DA0CC1CE247C04B1009BC5F9 /* RecipeTypePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0CC1CD247C04B1009BC5F9 /* RecipeTypePickerTests.swift */; };
 		DA0CC1D0247C2310009BC5F9 /* TimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0CC1CF247C2310009BC5F9 /* TimePicker.swift */; };
+		DA655A3D249F9E3B00203669 /* HomeCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA655A3C249F9E3B00203669 /* HomeCore.swift */; };
+		DA655A40249FA0BA00203669 /* SearchCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA655A3F249FA0BA00203669 /* SearchCore.swift */; };
 		DAB228C82479614C000C95A3 /* AddRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB228C72479614C000C95A3 /* AddRecipeView.swift */; };
 		DAB41E57246DB74300F109E5 /* CookbookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB41E56246DB74300F109E5 /* CookbookCell.swift */; };
 		DAB41E59246DBB5F00F109E5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB41E58246DBB5F00F109E5 /* HomeView.swift */; };
 		DAB41E5B246E9CE700F109E5 /* LemonProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB41E5A246E9CE700F109E5 /* LemonProgress.swift */; };
 		DAB41E5D246ED6A200F109E5 /* ServingCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB41E5C246ED6A200F109E5 /* ServingCounter.swift */; };
 		DAB41E5F2472D07D00F109E5 /* Cookbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB41E5E2472D07D00F109E5 /* Cookbook.swift */; };
-		DAB41E612472DF3F00F109E5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB41E602472DF3F00F109E5 /* CardView.swift */; };
 		DABBBB812473F17700CEA1B1 /* TextRecognitionClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABBBB802473F17700CEA1B1 /* TextRecognitionClient.swift */; };
 		DABBBB832474492200CEA1B1 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABBBB822474492200CEA1B1 /* SearchView.swift */; };
 		DAD84D0A2478087E004930C0 /* RecipeTypePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD84D092478087E004930C0 /* RecipeTypePicker.swift */; };
@@ -127,34 +113,20 @@
 		DA077222246D6A4D00C0DA62 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
 		DA077223246D6A4E00C0DA62 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
 		DA077224246D6A4E00C0DA62 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
-		DA077237246D6AE700C0DA62 /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
-		DA077238246D6AE700C0DA62 /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.ttf"; sourceTree = "<group>"; };
-		DA077239246D6AE700C0DA62 /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Medium.ttf"; sourceTree = "<group>"; };
-		DA07723A246D6AE700C0DA62 /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
-		DA07723B246D6AE700C0DA62 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
-		DA077241246D6AFE00C0DA62 /* EBGaramond-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EBGaramond-BoldItalic.ttf"; sourceTree = "<group>"; };
-		DA077242246D6AFF00C0DA62 /* EBGaramond-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EBGaramond-ExtraBold.ttf"; sourceTree = "<group>"; };
-		DA077243246D6AFF00C0DA62 /* EBGaramond-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EBGaramond-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
-		DA077244246D6AFF00C0DA62 /* EBGaramond-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EBGaramond-Regular.ttf"; sourceTree = "<group>"; };
-		DA077245246D6AFF00C0DA62 /* EBGaramond-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EBGaramond-Italic.ttf"; sourceTree = "<group>"; };
-		DA077246246D6AFF00C0DA62 /* EBGaramond-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EBGaramond-SemiBold.ttf"; sourceTree = "<group>"; };
-		DA077247246D6AFF00C0DA62 /* EBGaramond-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EBGaramond-Medium.ttf"; sourceTree = "<group>"; };
-		DA077248246D6AFF00C0DA62 /* EBGaramond-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EBGaramond-Bold.ttf"; sourceTree = "<group>"; };
-		DA077249246D6AFF00C0DA62 /* EBGaramond-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EBGaramond-MediumItalic.ttf"; sourceTree = "<group>"; };
-		DA07724A246D6AFF00C0DA62 /* EBGaramond-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EBGaramond-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		DA077255246D6F8A00C0DA62 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		DA07725A246D88FF00C0DA62 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		DA07725C246D890E00C0DA62 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		DA07725E246D8B3600C0DA62 /* RecipeStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeStep.swift; sourceTree = "<group>"; };
 		DA0CC1CD247C04B1009BC5F9 /* RecipeTypePickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTypePickerTests.swift; sourceTree = "<group>"; };
 		DA0CC1CF247C2310009BC5F9 /* TimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePicker.swift; sourceTree = "<group>"; };
+		DA655A3C249F9E3B00203669 /* HomeCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCore.swift; sourceTree = "<group>"; };
+		DA655A3F249FA0BA00203669 /* SearchCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCore.swift; sourceTree = "<group>"; };
 		DAB228C72479614C000C95A3 /* AddRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeView.swift; sourceTree = "<group>"; };
 		DAB41E56246DB74300F109E5 /* CookbookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookbookCell.swift; sourceTree = "<group>"; };
 		DAB41E58246DBB5F00F109E5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		DAB41E5A246E9CE700F109E5 /* LemonProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonProgress.swift; sourceTree = "<group>"; };
 		DAB41E5C246ED6A200F109E5 /* ServingCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServingCounter.swift; sourceTree = "<group>"; };
 		DAB41E5E2472D07D00F109E5 /* Cookbook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookbook.swift; sourceTree = "<group>"; };
-		DAB41E602472DF3F00F109E5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		DABBBB802473F17700CEA1B1 /* TextRecognitionClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognitionClient.swift; sourceTree = "<group>"; };
 		DABBBB822474492200CEA1B1 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		DAD84D092478087E004930C0 /* RecipeTypePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTypePicker.swift; sourceTree = "<group>"; };
@@ -254,8 +226,8 @@
 		DA077201246D40D600C0DA62 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DAB41E58246DBB5F00F109E5 /* HomeView.swift */,
-				DABBBB822474492200CEA1B1 /* SearchView.swift */,
+				DA655A3E249FA08200203669 /* Search */,
+				DA655A3B249F9CA500203669 /* Home */,
 				DAB228C72479614C000C95A3 /* AddRecipeView.swift */,
 			);
 			path = Views;
@@ -268,9 +240,7 @@
 				DA07720F246D67CA00C0DA62 /* Fonts */,
 				DA077205246D427D00C0DA62 /* Colors.swift */,
 				DA077208246D452000C0DA62 /* ElementPreview.swift */,
-				DA07720A246D45CA00C0DA62 /* BabkaButton.swift */,
 				DA077255246D6F8A00C0DA62 /* Fonts.swift */,
-				DAB41E602472DF3F00F109E5 /* CardView.swift */,
 			);
 			path = DesignKit;
 			sourceTree = "<group>";
@@ -278,8 +248,6 @@
 		DA07720F246D67CA00C0DA62 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				DA077212246D6A0300C0DA62 /* EB_Garamond */,
-				DA077211246D69F400C0DA62 /* Quicksand */,
 				DA077210246D69E300C0DA62 /* Montserrat */,
 			);
 			path = Fonts;
@@ -310,35 +278,6 @@
 			path = Montserrat;
 			sourceTree = "<group>";
 		};
-		DA077211246D69F400C0DA62 /* Quicksand */ = {
-			isa = PBXGroup;
-			children = (
-				DA07723A246D6AE700C0DA62 /* Quicksand-Bold.ttf */,
-				DA077238246D6AE700C0DA62 /* Quicksand-Light.ttf */,
-				DA077239246D6AE700C0DA62 /* Quicksand-Medium.ttf */,
-				DA07723B246D6AE700C0DA62 /* Quicksand-Regular.ttf */,
-				DA077237246D6AE700C0DA62 /* Quicksand-SemiBold.ttf */,
-			);
-			path = Quicksand;
-			sourceTree = "<group>";
-		};
-		DA077212246D6A0300C0DA62 /* EB_Garamond */ = {
-			isa = PBXGroup;
-			children = (
-				DA077248246D6AFF00C0DA62 /* EBGaramond-Bold.ttf */,
-				DA077241246D6AFE00C0DA62 /* EBGaramond-BoldItalic.ttf */,
-				DA077242246D6AFF00C0DA62 /* EBGaramond-ExtraBold.ttf */,
-				DA077243246D6AFF00C0DA62 /* EBGaramond-ExtraBoldItalic.ttf */,
-				DA077245246D6AFF00C0DA62 /* EBGaramond-Italic.ttf */,
-				DA077247246D6AFF00C0DA62 /* EBGaramond-Medium.ttf */,
-				DA077249246D6AFF00C0DA62 /* EBGaramond-MediumItalic.ttf */,
-				DA077244246D6AFF00C0DA62 /* EBGaramond-Regular.ttf */,
-				DA077246246D6AFF00C0DA62 /* EBGaramond-SemiBold.ttf */,
-				DA07724A246D6AFF00C0DA62 /* EBGaramond-SemiBoldItalic.ttf */,
-			);
-			path = EB_Garamond;
-			sourceTree = "<group>";
-		};
 		DA077259246D88E600C0DA62 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -353,6 +292,7 @@
 		DA0CC1CB247C0124009BC5F9 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				DA07720A246D45CA00C0DA62 /* BabkaButton.swift */,
 				DA07720C246D495D00C0DA62 /* RecipeCell.swift */,
 				DAB41E56246DB74300F109E5 /* CookbookCell.swift */,
 				DAB41E5A246E9CE700F109E5 /* LemonProgress.swift */,
@@ -370,6 +310,24 @@
 				DA0CC1CD247C04B1009BC5F9 /* RecipeTypePickerTests.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		DA655A3B249F9CA500203669 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DAB41E58246DBB5F00F109E5 /* HomeView.swift */,
+				DA655A3C249F9E3B00203669 /* HomeCore.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DA655A3E249FA08200203669 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				DABBBB822474492200CEA1B1 /* SearchView.swift */,
+				DA655A3F249FA0BA00203669 /* SearchCore.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 		DABBBB7F2473F14100CEA1B1 /* TextRecognitionClient */ = {
@@ -491,41 +449,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA077233246D6A4E00C0DA62 /* Montserrat-MediumItalic.ttf in Resources */,
-				DA07724B246D6AFF00C0DA62 /* EBGaramond-BoldItalic.ttf in Resources */,
 				DA077230246D6A4E00C0DA62 /* Montserrat-Regular.ttf in Resources */,
 				DA077229246D6A4E00C0DA62 /* Montserrat-BoldItalic.ttf in Resources */,
-				DA07724F246D6AFF00C0DA62 /* EBGaramond-Italic.ttf in Resources */,
 				DA077231246D6A4E00C0DA62 /* Montserrat-Light.ttf in Resources */,
 				DA07722E246D6A4E00C0DA62 /* Montserrat-Black.ttf in Resources */,
-				DA07724C246D6AFF00C0DA62 /* EBGaramond-ExtraBold.ttf in Resources */,
 				DA077226246D6A4E00C0DA62 /* Montserrat-SemiBoldItalic.ttf in Resources */,
-				DA07724E246D6AFF00C0DA62 /* EBGaramond-Regular.ttf in Resources */,
 				DA077235246D6A4E00C0DA62 /* Montserrat-Italic.ttf in Resources */,
-				DA077254246D6AFF00C0DA62 /* EBGaramond-SemiBoldItalic.ttf in Resources */,
 				DA07722B246D6A4E00C0DA62 /* Montserrat-ExtraLightItalic.ttf in Resources */,
 				DA0771DB246976A400C0DA62 /* LaunchScreen.storyboard in Resources */,
-				DA07723F246D6AE700C0DA62 /* Quicksand-Bold.ttf in Resources */,
-				DA07723E246D6AE700C0DA62 /* Quicksand-Medium.ttf in Resources */,
 				DA077203246D41EC00C0DA62 /* Colors.xcassets in Resources */,
-				DA07724D246D6AFF00C0DA62 /* EBGaramond-ExtraBoldItalic.ttf in Resources */,
 				DA07722A246D6A4E00C0DA62 /* Montserrat-SemiBold.ttf in Resources */,
-				DA07723C246D6AE700C0DA62 /* Quicksand-SemiBold.ttf in Resources */,
 				DA077232246D6A4E00C0DA62 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
 				DA0771D8246976A400C0DA62 /* Preview Assets.xcassets in Resources */,
 				DA0771D5246976A400C0DA62 /* Assets.xcassets in Resources */,
-				DA07723D246D6AE700C0DA62 /* Quicksand-Light.ttf in Resources */,
 				DA07722C246D6A4E00C0DA62 /* Montserrat-LightItalic.ttf in Resources */,
 				DA077234246D6A4E00C0DA62 /* Montserrat-ThinItalic.ttf in Resources */,
-				DA077251246D6AFF00C0DA62 /* EBGaramond-Medium.ttf in Resources */,
 				DA07722F246D6A4E00C0DA62 /* Montserrat-Thin.ttf in Resources */,
 				DA077228246D6A4E00C0DA62 /* Montserrat-BlackItalic.ttf in Resources */,
 				DA07722D246D6A4E00C0DA62 /* Montserrat-Medium.ttf in Resources */,
 				DA077236246D6A4E00C0DA62 /* Montserrat-ExtraBold.ttf in Resources */,
 				DA077225246D6A4E00C0DA62 /* Montserrat-ExtraLight.ttf in Resources */,
-				DA077253246D6AFF00C0DA62 /* EBGaramond-MediumItalic.ttf in Resources */,
-				DA077240246D6AE700C0DA62 /* Quicksand-Regular.ttf in Resources */,
-				DA077252246D6AFF00C0DA62 /* EBGaramond-Bold.ttf in Resources */,
-				DA077250246D6AFF00C0DA62 /* EBGaramond-SemiBold.ttf in Resources */,
 				DA077227246D6A4E00C0DA62 /* Montserrat-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -557,6 +500,7 @@
 				DA077256246D6F8A00C0DA62 /* Fonts.swift in Sources */,
 				DAB41E59246DBB5F00F109E5 /* HomeView.swift in Sources */,
 				DABBBB832474492200CEA1B1 /* SearchView.swift in Sources */,
+				DA655A40249FA0BA00203669 /* SearchCore.swift in Sources */,
 				DA0CC1D0247C2310009BC5F9 /* TimePicker.swift in Sources */,
 				DA0771CF246976A000C0DA62 /* AppDelegate.swift in Sources */,
 				DA077206246D427D00C0DA62 /* Colors.swift in Sources */,
@@ -570,8 +514,8 @@
 				DA07725B246D88FF00C0DA62 /* Recipe.swift in Sources */,
 				DA0771D1246976A000C0DA62 /* SceneDelegate.swift in Sources */,
 				DA07725D246D890E00C0DA62 /* Ingredient.swift in Sources */,
+				DA655A3D249F9E3B00203669 /* HomeCore.swift in Sources */,
 				DAB41E5B246E9CE700F109E5 /* LemonProgress.swift in Sources */,
-				DAB41E612472DF3F00F109E5 /* CardView.swift in Sources */,
 				DA0771D3246976A000C0DA62 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

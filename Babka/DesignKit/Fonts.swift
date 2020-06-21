@@ -8,29 +8,23 @@
 
 import SwiftUI
 
-// MARK: MapIt Fonts
-
-// EB Garamond
-private let regularPrimaryFontName = "EBGaramond-Regular"
-private let mediumPrimaryFontName = "EBGaramond-Medium"
-private let semiBoldPrimaryFontName = "EBGaramond-SemiBold"
-private let boldPrimaryFontName = "EBGaramond-Bold"
-private let extraBoldPrimaryFontName = "EBGaramond-ExtraBold"
+// MARK: Babka Fonts
 
 // Montserrat
 private let regularSecondaryFontName = "Montserrat-Regular"
 private let semiBoldSecondaryFontName = "Montserrat-SemiBold"
+private let boldSecondaryFontName = "Montserrat-Bold"
 
 // MARK: - General use
+
 public extension Font {
-    static let homeTitle = Font.custom(semiBoldPrimaryFontName, size: 42) // My Recipes
+    static let homeTitle = Font.system(size: 42, weight: .semibold) // My Recipes
     static let sectionTitle = Font.custom(semiBoldSecondaryFontName, size: 18) // LAST ADDED
-    static let cookbookTitle = Font.custom(extraBoldPrimaryFontName, size: 32) // My Cookbook
-    static let titleFont = Font.custom(semiBoldPrimaryFontName, size: 32) // Tomato Soup
+    static let titleFont = Font.system(size: 30, weight: .semibold) // Tomato Soup
     static let subtitleFont = Font.custom(semiBoldSecondaryFontName, size: 13) // MAIN COURSE
-    static let infoFont = Font.custom(boldPrimaryFontName, size: 20) // (35)min
-    static let subInfoFont = Font.custom(boldPrimaryFontName, size: 18) // 35(min)
+    static let infoFont = Font.system(size: 20, weight: .semibold) // (35)min
+    static let subInfoFont = Font.system(size: 16, weight: .semibold) // 35(min)
     static let searchText = Font.custom(semiBoldSecondaryFontName, size: 26) // Soup
     static let longTextFont = Font.custom(regularSecondaryFontName, size: 13)
-     static let timePickerFont = Font.custom(regularPrimaryFontName, size: 36) // h / min
+    static let timePickerFont = Font.system(size: 36, weight: .regular) // h / min
 }
